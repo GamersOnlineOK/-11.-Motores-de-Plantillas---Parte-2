@@ -18,7 +18,7 @@ const Port = 8080;
 // }))
 
 App.set("views", "./views");
-App.set("view engine", "pug");
+App.set("view engine", "ejs");
 App.use(express.static("public"));
 
 
